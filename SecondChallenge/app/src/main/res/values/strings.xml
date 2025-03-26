@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Second Challenge</string>
+    <string name="tasks_completed">All tasks completed</string>
+    <string name="nice_work">Nice work!</string>
+</resources>
