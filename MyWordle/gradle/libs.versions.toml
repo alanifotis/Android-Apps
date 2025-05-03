@@ -1,22 +1,22 @@
 [versions]
-agp = "8.9.0"
-kotlin = "2.0.20"
-coreKtx = "1.15.0"
+agp = "8.9.2"
+kotlin = "2.1.20"
+coreKtx = "1.16.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.8.7"
-activityCompose = "1.9.3"
-composeBom = "2024.10.01"
-roomVersion = "2.6.1"
+activityCompose = "1.10.1"
+composeBom = "2025.04.01"
+roomVersion = "2.7.1"
 lifecycleViewmodel = "2.8.7"
-navigationCompose = "2.8.3"
+navigationCompose = "2.8.9"
 retrofitVersion =  "2.11.0"
 okhttp3Bom = "4.12.0"
 gson = "2.11.0"
 kotlinxJson = "1.7.2"
 kotlinxDatetime = "0.6.1"
-
+devKsp = "2.1.20-2.0.0"
 
 
 [libraries]
@@ -56,6 +56,6 @@ androidx-navigation-compose = { group = "androidx.navigation", name = "navigatio
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-devtool-ksp = { id = "com.google.devtools.ksp", version = "2.0.20-1.0.24" }
+devtool-ksp = { id = "com.google.devtools.ksp", version.ref = "devKsp" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlin-serialization-plugin = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin"}
